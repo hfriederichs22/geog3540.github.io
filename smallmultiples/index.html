@@ -82,12 +82,12 @@
 			<br />
 			<div class="row">
 				<div class="col-sm-6">
-					<span><p><h3 class='mapTitle'>Suplimental Nutrition Assistance Program (SNAP) Benefits per Household</h3>The percentage of households that receive SNAP benefits.</p></span>
+					<span><p><h3 class='mapTitle'>SNAP Benefits</h3>% of households that receive SNAP benefits.</p></span>
 					<div id="divMap1"></div>
 					<div id="divHist1"></div>
 				</div>
 				<div class="col-sm-6">
-					<h3 class='mapTitle'>Kids</h3><p>Percentage of Kids between 0-17 years old.</p>
+					<h3 class='mapTitle'>Kids</h3><p>% of Kids between 0-17 years old.</p>
 					<div id="divMap2"></div>
 					<div id="divHist2"></div>
 				</div>
@@ -100,7 +100,7 @@
 					<div id="divHist3"></div>
 				</div>
 				<div class="col-sm-6">
-					<h3 class='mapTitle'>Poverty Rate</h3><p>Share of the tract population living with income at or below the Federal poverty thresholds for family size.</p>
+					<h3 class='mapTitle'>Poverty Rate</h3><p>% of population with income at or below the Federal poverty thresholds.</p>
 					<div id="divMap4"></div>
 					<div id="divHist4"></div>
 				</div>
@@ -130,7 +130,7 @@
 	var idAttribute = 'GEOID', nameAttribute = 'GEOID';
 
 	// Find the abbreviations of color names from https://colorbrewer2.org/
-	var colors =  colorbrewer.Purples;
+	var colors =  colorbrewer.Y1GnBu;
 
 	// Chart/map attributes (variables) and formats based on the divs defined above
 	// For attribute 1 (the same for all others), see the description of the parameters below.
